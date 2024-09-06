@@ -1,0 +1,38 @@
+appName: generic-app
+namespace: default
+
+release:
+  deploy: true
+  apiTier: Tier1
+  apiContainerPort: 80
+  envvars:
+    KEY: value
+image:
+  repository: acrurl.azurecr.io/generic-app
+  tag: latest
+# valores custom para el chart de api-template
+healthchecks:
+  enabled: true
+
+ingress:
+  enabled: false
+
+service:
+  apiServicePort: 80
+  serviceType: ClusterIP
+
+redis:
+  enabled: false
+  image: redis:7.0.5-alpine3.16
+  port: 6379
+  tier: redis-low-resource-usage
+
+autoscaling:
+  averageCPU: 80
+  averageMEM: 80
+
+deployment:
+  limitsCPU: 100m
+  limitsMEM: 128Mi
+  requestsCPU: 100m
+  requestsMEM: 128Mi

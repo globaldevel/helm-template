@@ -1,0 +1,8 @@
+apiVersion: v2
+name: generic-app
+description: Template for GS apps
+version: 1.0.1
+keywords:
+  - cloud
+  - application
+engine: gotpl

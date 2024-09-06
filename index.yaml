@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  generic-app:
+  - apiVersion: v2
+    created: "2024-09-06T01:50:32.368896393-03:00"
+    description: Template for GS apps
+    digest: 1dd61a0b02f60806b565eea9c8b1aa1d84e74843bb03f4db450d42649f9f2b59
+    keywords:
+    - cloud
+    - application
+    name: generic-app
+    urls:
+    - charts/generic-app-1.0.1.tgz
+    version: 1.0.1
+generated: "2024-09-06T01:50:32.368294934-03:00"
