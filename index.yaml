@@ -2,7 +2,22 @@ apiVersion: v1
 entries:
   chart-template:
   - apiVersion: v2
-    created: "2024-09-18T20:50:47.1901612-03:00"
+    created: "2024-09-18T20:55:46.8938445-03:00"
+    description: Template for GS app
+    digest: 80d1e72b51ebb3839505d6d6d508130cebe601b74037daaee302e2d9eb77d1ef
+    icon: https://www.galiciaseguros.com.ar/media-library/templates/images/galicia-logo.png
+    keywords:
+    - cloud
+    - application
+    maintainers:
+    - email: devops@galiciaseguros.com.ar
+      name: Devops Team
+    name: chart-template
+    urls:
+    - charts/chart-template-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    created: "2024-09-18T20:55:46.8931446-03:00"
     description: Template for GS app
     digest: 34c127ebc9844f595bf235b14aa2ea9f9b428f27fb5f2b472235b8bfd22b66ef
     icon: https://www.galiciaseguros.com.ar/media-library/templates/images/galicia-logo.png
@@ -17,4 +32,4 @@ entries:
     urls:
     - charts/chart-template-1.0.1.tgz
     version: 1.0.1
-generated: "2024-09-18T20:50:47.1890499-03:00"
+generated: "2024-09-18T20:55:46.8918974-03:00"

@@ -1,8 +1,7 @@
 apiVersion: v2
 name: chart-template
 description: Template for GS app
-version: 1.0.1
-kubeVersion: '>=1.19.x'
+version: 1.0.2
 keywords:
   - cloud
   - application
