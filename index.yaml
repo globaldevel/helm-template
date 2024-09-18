@@ -1,15 +1,20 @@
 apiVersion: v1
 entries:
-  generic-app:
+  chart-template:
   - apiVersion: v2
-    created: "2024-09-06T01:50:32.368896393-03:00"
-    description: Template for GS apps
-    digest: 1dd61a0b02f60806b565eea9c8b1aa1d84e74843bb03f4db450d42649f9f2b59
+    created: "2024-09-18T19:46:04.4051009-03:00"
+    description: Template for GS app
+    digest: f62c3c0a8832d7051ed77591d8b4c7e53ff23dcc1769682c2d6d39a1ed9a6c15
+    icon: https://www.galiciaseguros.com.ar/media-library/templates/images/galicia-logo.png
     keywords:
     - cloud
     - application
-    name: generic-app
+    kubeVersion: '>=1.19.x'
+    maintainers:
+    - email: devops@galiciaseguros.com.ar
+      name: Devops Team
+    name: chart-template
     urls:
-    - charts/generic-app-1.0.1.tgz
+    - charts/chart-template-1.0.1.tgz
     version: 1.0.1
-generated: "2024-09-06T01:50:32.368294934-03:00"
+generated: "2024-09-18T19:46:04.4005434-03:00"
