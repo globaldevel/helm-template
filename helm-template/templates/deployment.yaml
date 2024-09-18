@@ -25,11 +25,11 @@ spec:
     spec:
       containers:
       - name: {{ .Values.appName }}
-        nodeSelector: {{ if .Values.nodeSelector }}{{ tpl .Values.nodeSelector . | toYaml }}{{ end }}
         image: 
           repository: {{ .Values.image.repository }}
           tag: {{ .Values.image.tag }}
-          pullPolicy: {{ .Values.deployment.PullPolicy }}
+          pullPolicy: {{ .Values.image.pullPolicy }}
+        nodeSelector: {{ if .Values.nodeSelector }}{{ tpl .Values.nodeSelector . | toYaml }}{{ end }}
         ports:
         - containerPort: {{ .Values.release.apiContainerPort }}
         env:

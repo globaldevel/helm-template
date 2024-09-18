@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   chart-template:
   - apiVersion: v2
-    created: "2024-09-18T19:53:15.7061406-03:00"
+    created: "2024-09-18T20:50:47.1901612-03:00"
     description: Template for GS app
-    digest: 6fa4cce164146a9d860c9697b825002f65ba23edd4a95e6c9ac4931b9d7a2995
+    digest: 34c127ebc9844f595bf235b14aa2ea9f9b428f27fb5f2b472235b8bfd22b66ef
     icon: https://www.galiciaseguros.com.ar/media-library/templates/images/galicia-logo.png
     keywords:
     - cloud
@@ -17,4 +17,4 @@ entries:
     urls:
     - charts/chart-template-1.0.1.tgz
     version: 1.0.1
-generated: "2024-09-18T19:53:15.705626-03:00"
+generated: "2024-09-18T20:50:47.1890499-03:00"
