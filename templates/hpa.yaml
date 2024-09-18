@@ -11,7 +11,7 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: {{ .Values.appName }}
-  minReplicas: {{ if eq .Values.namespace "production" }}2{{ else }}2{{ end }}
+  minReplicas: {{ if eq .Values.namespace "production" }}2{{ else }}1{{ end }}
   maxReplicas: {{ if eq .Values.namespace "production" }}8{{ else }}4{{ end }}
   metrics:
     - type: Resource

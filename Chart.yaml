@@ -1,8 +1,12 @@
 apiVersion: v2
-name: generic-app
-description: Template for GS apps
+name: chart-template
+description: Template for GS app
 version: 1.0.1
+kubeVersion: '>=1.19.x'
 keywords:
   - cloud
   - application
-engine: gotpl
+maintainers:
+  - name: Devops Team
+    email: devops@galiciaseguros.com.ar
+icon: https://www.galiciaseguros.com.ar/media-library/templates/images/galicia-logo.png
