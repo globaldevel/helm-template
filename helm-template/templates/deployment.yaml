@@ -26,7 +26,7 @@ spec:
       containers:
       - name: {{ .Values.appName }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-        pullPolicy: {{ .Values.image.pullPolicy }}
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
         nodeSelector: {{ if .Values.nodeSelector }}{{ tpl .Values.nodeSelector . | toYaml }}{{ end }}
         ports:
         - containerPort: {{ .Values.release.apiContainerPort }}
